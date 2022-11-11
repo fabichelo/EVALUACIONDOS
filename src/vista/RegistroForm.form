@@ -24,66 +24,82 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="632" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtnombre" min="-2" pref="232" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtciclo" alignment="0" min="-2" pref="232" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtmodalidad" pref="210" max="32767" attributes="0"/>
-                              </Group>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtnombre" min="-2" pref="232" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txtciclo" min="-2" pref="232" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="txtfecha" min="-2" pref="233" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtcarrera" alignment="0" pref="232" max="32767" attributes="0"/>
-                                  <Component id="txtapellidos" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                                  <Component id="txtfecha" alignment="0" pref="233" max="32767" attributes="0"/>
-                                  <Component id="txtturno" max="32767" attributes="0"/>
-                              </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtapellidos" alignment="0" min="-2" pref="232" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtturno" min="-2" pref="233" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace type="unrelated" pref="20" max="32767" attributes="0"/>
+                              <Component id="txtcarrera" min="-2" pref="232" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
-                              <Component id="btnregistrar" min="-2" pref="93" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Component id="btnmodificar" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                              <Component id="btnlistar" min="-2" pref="84" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
-                              <Component id="btneliminar" min="-2" pref="83" max="-2" attributes="0"/>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
-                  <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                      <Component id="txtmodalidad" min="-2" pref="484" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="btnregistrar" min="-2" pref="93" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+              <Component id="btnmodificar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnlistar" min="-2" pref="84" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+              <Component id="btneliminar" min="-2" pref="83" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="115" max="-2" attributes="0"/>
+          </Group>
+          <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -95,44 +111,40 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtnombre" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtciclo" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtmodalidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfecha" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtapellidos" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtturno" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtcarrera" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtfecha" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="txtmodalidad" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="393" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnregistrar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   <Component id="btnmodificar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   <Component id="btnlistar" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   <Component id="btneliminar" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" min="-2" pref="393" max="-2" attributes="0"/>
-              <EmptySpace pref="47" max="32767" attributes="0"/>
+              <EmptySpace pref="13" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -140,7 +152,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="REGISTRO:"/>
+        <Property name="text" type="java.lang.String" value="REGISTRO DE ALUMNOS:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
