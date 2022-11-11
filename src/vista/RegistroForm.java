@@ -250,6 +250,7 @@ public class RegistroForm extends javax.swing.JFrame {
             a.setFecha(txtfecha.getText());
             a.setModalidad(txtmodalidad.getText());
             dao.actualizar(fila,a);
+            limpiar();
             llenardatos();
         }else{
             JOptionPane.showMessageDialog(rootPane,"Seleccionar Flia");
